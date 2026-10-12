@@ -1,48 +1,85 @@
-# Will you be my valentine?
+# Oooo Duduuu 💖 — Will You Be My Valentine?
 
-**Valentine Page Creator**: https://i143.xyz/create
+An interactive, romantic, and playful Valentine's Day web app built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.
 
+Designed to bring an unforgettable smile to your special person! 🌹
 
-## Custom Templates
-Click on the template of your choice, and create your valentine pages under 1 minute. : https://i143.xyz/templates
+---
 
-- **100% Free**. 🆓
-- Easy to Use. **No Codeing** required. 🎉
-- With **custom subdomain** of your choice (Obviously not claimed by anyone else). 🌍
-- With **custom texts** of your choice. 💬
-- With **custom images** of your choice. 👩‍❤️‍👨
-- With **40 Beautiful** templates to start from. 🤩
+## 🌟 Live Demo
+👉 **[https://ankanpy.github.io/oooo-duduuuu/](https://ankanpy.github.io/oooo-duduuuu/)**
 
+---
 
-# Demo
-Github Pages : https://saurabhnemade.github.io/will-you-be-my-valentine/
+## ✨ Features & Enhancements
 
+This project has been upgraded with a complete romantic aesthetic and interactive dynamics:
 
-# Description
-This is a fun project for valentines day to bring smile on face of your special person!!
+- 🌸 **Dreamy Glassmorphism Aesthetics**: Soft blush & rose pastel gradients (`from-rose-100 via-pink-50 to-rose-200`) paired with a modern frosted glassmorphic card container.
+- 💖 **Floating Ambient Hearts**: Upward-drifting background hearts and sparkles floating continuously.
+- 🪄 **Interactive Click Sparkles**: Clicking or tapping anywhere on the screen bursts floating heart particles at the cursor location.
+- 💓 **Heartbeat Pulse "Yes" Button**: A pulsating heartbeat animation on the "Yes" button that dynamically grows bigger with every "No" click.
+- 🙈 **Playful Shy "No" Button**: Interactive wiggle animation on click, cycling through an escalating series of playful pleading phrases tailored for *duduuu*.
+- 🎉 **Celebration Climax**:
+  - Full-screen heart confetti explosion powered by `canvas-confetti`.
+  - Affectionate kissing bear celebration GIF.
+  - Sweet love badge and a *"Play again ↺"* replay button.
+- 🔤 **Romantic Typography**: Styled with Google Fonts (*Playfair Display*, *Dancing Script*, and *Quicksand*).
 
-This project is inspired from
-https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5 & https://www.tiktok.com/@mewtru/video/7331131143112166698
+---
 
-# How to start
+## 🚀 Getting Started Locally
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed.
+
+### Installation & Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ankanpy/will-you-be-my-valentine.git
+   cd will-you-be-my-valentine
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit:
+   `http://localhost:5173/oooo-duduuuu/`
+
+---
+
+## 📦 How to Deploy to GitHub Pages
+
+Deploying takes just one command:
+
+```bash
+npm run deploy
 ```
-npm install -g pnpm
-pnpm i
-pnpm run dev
-```
 
-# Preview
+This runs `vite build` and automatically pushes the production build to your repository's `gh-pages` branch using the `gh-pages` package.
 
-![image description](demo.gif)
+### First-Time GitHub Setup:
+1. In your GitHub repository, go to **Settings** → **Pages**.
+2. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
+3. Select **Branch: `gh-pages`** and folder **`/ (root)`**, then click **Save**.
+4. Your site will be live at `https://ankanpy.github.io/oooo-duduuuu/`!
 
+---
 
-# How to deploy it
-```
-pnpm run deploy
-```
+## 💡 Acknowledgements & Credits
 
-# Reporting Issues
+- Forked from the original project by [Saurabh Nemade](https://github.com/saurabhnemade/will-you-be-my-valentine).
+- Inspired by [tnarla's gist](https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5) and [mewtru's TikTok](https://www.tiktok.com/@mewtru/video/7331131143112166698).
 
-You can report issues directly at saurabh@agnt.dev
+---
 
-Made with ❤️ in Berlin!
+Made with ❤️ for Valentine's Day!
+
