@@ -1,4 +1,4 @@
-# Oooo Duduuu 💖 — Will You Be My Valentine?
+# Will You Be My Valentine? 💖
 
 An interactive, romantic, and playful Valentine's Day web app built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.
 
@@ -7,7 +7,7 @@ Designed to bring an unforgettable smile to your special person! 🌹
 ---
 
 ## 🌟 Live Demo
-👉 **[https://ankanpy.github.io/oooo-duduuuu/](https://ankanpy.github.io/oooo-duduuuu/)**
+👉 **[https://ankanpy.github.io/will-you-be-my-valentine/](https://ankanpy.github.io/will-you-be-my-valentine/)**
 
 ---
 
@@ -19,7 +19,7 @@ This project has been upgraded with a complete romantic aesthetic and interactiv
 - 💖 **Floating Ambient Hearts**: Upward-drifting background hearts and sparkles floating continuously.
 - 🪄 **Interactive Click Sparkles**: Clicking or tapping anywhere on the screen bursts floating heart particles at the cursor location.
 - 💓 **Heartbeat Pulse "Yes" Button**: A pulsating heartbeat animation on the "Yes" button that dynamically grows bigger with every "No" click.
-- 🙈 **Playful Shy "No" Button**: Interactive wiggle animation on click, cycling through an escalating series of playful pleading phrases tailored for *duduuu*.
+- 🙈 **Playful Shy "No" Button**: Interactive wiggle animation on click, cycling through an escalating series of playful pleading phrases.
 - 🎉 **Celebration Climax**:
   - Full-screen heart confetti explosion powered by `canvas-confetti`.
   - Affectionate kissing bear celebration GIF.
@@ -51,8 +51,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
    npm run dev
    ```
 
-4. Open your browser and visit:
-   `http://localhost:5173/oooo-duduuuu/`
+4. Open your browser and visit the local dev server link.
 
 ---
 
@@ -70,7 +69,7 @@ This runs `vite build` and automatically pushes the production build to your rep
 1. In your GitHub repository, go to **Settings** → **Pages**.
 2. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
 3. Select **Branch: `gh-pages`** and folder **`/ (root)`**, then click **Save**.
-4. Your site will be live at `https://ankanpy.github.io/oooo-duduuuu/`!
+4. Your site will be live at `https://ankanpy.github.io/will-you-be-my-valentine/`!
 
 ---
 
@@ -82,4 +81,5 @@ This runs `vite build` and automatically pushes the production build to your rep
 ---
 
 Made with ❤️ for Valentine's Day!
+
 
