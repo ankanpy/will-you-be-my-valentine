@@ -13,11 +13,11 @@ interface ClickHeart {
 
 const BACKGROUND_HEARTS = [
   { id: 1, left: "8%", size: "1.3rem", duration: "9s", delay: "0s", emoji: "💖" },
-  { id: 2, left: "18%", size: "0.9rem", duration: "12s", delay: "2s", emoji: "💕" },
+  { id: 2, left: "18%", size: "0.9rem", duration: "12s", delay: "2s", emoji: "💍" },
   { id: 3, left: "28%", size: "1.5rem", duration: "10s", delay: "4s", emoji: "🌸" },
   { id: 4, left: "42%", size: "1.1rem", duration: "14s", delay: "1s", emoji: "❤️" },
   { id: 5, left: "55%", size: "1.4rem", duration: "11s", delay: "3s", emoji: "✨" },
-  { id: 6, left: "68%", size: "1rem", duration: "13s", delay: "5s", emoji: "💘" },
+  { id: 6, left: "68%", size: "1rem", duration: "13s", delay: "5s", emoji: "💍" },
   { id: 7, left: "78%", size: "1.6rem", duration: "9.5s", delay: "2.5s", emoji: "💖" },
   { id: 8, left: "88%", size: "1.2rem", duration: "12s", delay: "0.5s", emoji: "💕" },
   { id: 9, left: "94%", size: "0.8rem", duration: "15s", delay: "3.5s", emoji: "🌸" },
@@ -97,7 +97,7 @@ export default function Page() {
     // Only spawn hearts if clicking on the background, not buttons
     if ((e.target as HTMLElement).tagName.toLowerCase() === "button") return;
 
-    const emojis = ["💖", "💕", "💘", "✨", "🌸", "🌹"];
+    const emojis = ["💍", "💖", "💕", "✨", "🌸", "🌹"];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     const tx = (Math.random() - 0.5) * 80;
     const ty = -60 - Math.random() * 50;
@@ -191,7 +191,7 @@ export default function Page() {
             </p>
 
             <div className="mt-6 px-4 py-2 rounded-full bg-rose-50 border border-rose-200 text-rose-500 text-sm font-medium flex items-center gap-2 shadow-sm">
-              <span>🌹</span> Best Valentine Ever <span>✨</span>
+              <span>💍</span> She said YES! Forever & Always <span>✨</span>
             </div>
 
             <button
@@ -208,7 +208,7 @@ export default function Page() {
           <div className="flex flex-col items-center">
             {/* Cute Header Pill Badge */}
             <div className="mb-4 inline-flex items-center gap-1.5 rounded-full bg-rose-100/80 px-3.5 py-1 text-xs font-semibold tracking-wide text-rose-600 border border-rose-200/60 shadow-sm">
-              <span>💌</span> A question for my special one
+              <span>💍</span> The most important question of my life
             </div>
 
             {/* Bear gif with subtle floating effect */}
@@ -223,10 +223,10 @@ export default function Page() {
 
             {/* Romantic Heading */}
             <h1 className="mt-4 mb-1 text-2xl sm:text-4xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-pink-600 to-rose-500 tracking-tight">
-              Will you be my Valentine?
+              Will you marry me?
             </h1>
             <p className="font-romantic text-xl sm:text-2xl text-rose-400 mb-6 font-semibold">
-              Say yes and make my day 💕
+              Say yes and make me the happiest person forever 💍✨
             </p>
 
             {/* Action Buttons */}
@@ -264,7 +264,7 @@ export default function Page() {
 
       {/* Subdued romantic footer */}
       <footer className="mt-6 text-center text-xs text-rose-400/70 font-medium">
-        Made with ❤️ for Valentine's Day
+        Made with all my love ❤️ Forever & Always
       </footer>
     </div>
   );
