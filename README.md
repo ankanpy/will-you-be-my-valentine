@@ -7,8 +7,7 @@ Designed to ask the most important question in the sweetest, most unforgettable 
 ---
 
 ## 🌟 Live Demo
-👉 **[https://ankanpy.github.io/will-you-be-my-valentine/](https://ankanpy.github.io/will-you-be-my-valentine/)**  
-*(Or `https://ankanpy.github.io/will-you-marry-me/` if you rename the repository)*
+👉 **[https://ankanpy.github.io/will-you-marry-me/](https://ankanpy.github.io/will-you-marry-me/)**
 
 ---
 
@@ -50,8 +49,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed (v18 or higher recom
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ankanpy/will-you-be-my-valentine.git
-   cd will-you-be-my-valentine
+   git clone https://github.com/ankanpy/will-you-marry-me.git
+   cd will-you-marry-me
    ```
 
 2. **Install dependencies:**
